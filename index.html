@@ -24,15 +24,13 @@
     <main class="recipe">
 
         <div class="imagem">
-            <picture>
-                <source srcset="./src/images\image-omelette.jpeg" media="(min-width: 768px)">
-                <img class="omelete" src="./src/images/image-omelette.jpeg" alt="Omelette Picture">
-            </picture>
+            <source srcset="./src/images\image-omelette.jpeg" media="(min-width: 768px)">
+            <img class="omelete" src="./src/images/image-omelette.jpeg" alt="Omelette Picture">
         </div>
 
         <div class="texto">
             <div class="conteudo">
-                <h2 class="titulo">Simple Omelette Recipe</h2>
+                <h1 class="tituloh1">Simple Omelette Recipe</h1>
                 <p class="descricao1">An easy and quick dish, perfect for any meal. This classic omelette combines
                     beaten
                     eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
@@ -40,7 +38,7 @@
             </div>
 
             <div class="conteudopreparation">
-                <h3 class="tituloh3">Preparation Time</h3>
+                <h2 class="tituloh2 roxo">Preparation Time</h2>
                 <ul class="listapreparation">
 
                     <li>
@@ -63,7 +61,7 @@
 
             <div class="conteudoingredients">
                 <h2 class="tituloh2">Ingredients</h2>
-                <ul class="descricao1">
+                <ul class="listaingredients descricao1">
 
                     <li>
                         <span>2-3 large eggs</span>
@@ -86,10 +84,11 @@
                     </li>
                 </ul>
             </div>
+            <hr id="firstbar">
 
             <div class="conteudoinstructions">
                 <h2 class="tituloh2">Instructions</h2>
-                <ol>
+                <ol class="listainstructions">
 
                     <li>
                         <span class="negrito">Beat the eggs:</span>
@@ -135,19 +134,20 @@
 
                 </ol>
             </div>
+            <hr id="secondbar">
 
             <div class="conteudonutrition">
                 <h2 class="tituloh2">Nutrition</h2>
-                <p class="descricao1">The table below shows nutritional values per serving without the additional
+                <p class="descnutrition descricao1">The table below shows nutritional values per serving without the additional
                     fillings.
                 </p>
-                <table class="descricao1">
+                <table class="tabelanutrition descricao1">
 
                     <tr>
                         <td>Calories</td>
                         <th class="browntable">277kcal</th>
                     </tr>
-
+                    
                     <tr>
                         <td>Carbs</td>
                         <th class="browntable">0g</th>
@@ -174,10 +174,10 @@
 
 
 
-    <div class="builtby">
+    <footer class="builtby">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="https://github.com/passamanii">passamani</a>.
-    </div>
+    </footer>
 </body>
 
 </html>
